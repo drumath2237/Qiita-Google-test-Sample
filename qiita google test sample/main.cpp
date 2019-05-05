@@ -2,7 +2,14 @@
 
 #include "Library.h"
 
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	int n, m;
+
+	cin >> n;
+	cin >> m;
+
+	cout << "result: " << euclid(n, m) << endl;
 }
